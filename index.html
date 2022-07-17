@@ -1,82 +1,51 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <link rel="stylesheet" href="./reset.css">
-        <link rel="stylesheet" href="./style.css">
-        <title>Savannah Whittenburg Portfolio</title>
-    </head>
+<html>
 
- <!-- nav tags begins -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
 <body>
-    <header>
-        <h1>
-            <a href="/">Savannah Whittenburg</a>
-        </h1>
-    <nav>
-        <ul>
-            <li>
-                <a href="about-me">About Me</a>
-            </li>
-            <li>
-                <a href="work samples">Work</a>
-            </li>
-            <li>
-                <a href="contact-me">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-</header>
-<!-- nav tags end -->
-
-<!-- about me begins -->
-<main>
-<section class="about-me" class="about">
-    <h2 class="section-title primary border">About Me</h2>
-    <div>
-        <p>about me text</p>
-    </div>
-</section>
-<!-- about me ends -->
-
-<!-- work section begins -->
-<section class="work-samples" class="work">
-    <h2 class="section-title primary border">Work Samples</h2>
-    <div class="flex-container">
-       <a href="#" class="run-buddy flex-item">
-           <div>
-               <h3>Run Buddy</h3>
-           </div>
-       </a>
-       <a href="#" class="project-2 flex-item">
-        <div>
-            <h3>Run Buddy</h3>
-        </div>
-    </a>
-        <a href="#" class="project-3 flex-item">
-        <div>
-            <h3>Run Buddy</h3>
-        </div>
-    </a>
-    </div>
-    
-
-</section>
-<!-- work section ends -->
-
-<!-- contact me begins -->
-<section class="contact-me" class="contact">
-    <h2 class="section-title secondary border">Contact Me</h2>
-    <div class="flex-row">
-        <h3>Savannah Whittenburg</h3>
-        <p>randomtextrandomtextrandomtextrandomtextrandomtextrandomtext
+<section class="hero is-warning">
+    <div class="hero-body">
+        <p class="title">
+            Savannah Whittenburg Portfolio
         </p>
-        P: XXX-XXX-XXXX
-            <br> E:
-            <a href="mailto:whittenburgsavannah@gmail.com">whittenburgsavannah@gmail.com   
-            </a>
-            </div>
+        <p class="subtitle">
+            Work Completed During the University of Richmond Full-Stack Bootcamp Program
+        </p>
+    </div>
 </section>
-</main>
+
+<nav class="navbar is-success" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <!-- navbar items, navbar burger... -->
+    </div>
+
+    <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item">
+            About Me
+          </a>
+
+          <div class="navbar-item has-dropdown is-hoverable">
+            <a class="navbar-link">
+              Work Samples
+            </a>
+    
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                Run-Buddy
+              </a>
+              <a class="navbar-item">
+               <a href="https://jenniferbyrnes.github.io/weather-playlist/" target="_blank" rel="noopener">Weather-Playlist</a>
+              </a>
+            </div>
+  </nav>
+
 </body>
+
 </html>
